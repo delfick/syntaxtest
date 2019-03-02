@@ -1,0 +1,6 @@
+#!/usr/bin/env python -cos=__import__("os");sys=__import__("sys");python=os.path.join(os.path.dirname(sys.argv[1]),"./python");os.execv(python,sys.argv)
+
+def a_func(a):
+    print(a)
+
+a_func("hello there")

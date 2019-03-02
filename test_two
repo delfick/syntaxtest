@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+
+def a_func(a):
+    print(a)
+
+a_func("hello there")
